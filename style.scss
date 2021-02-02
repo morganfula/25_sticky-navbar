@@ -47,7 +47,8 @@ body {
 
   &.active {
     background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    // box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 
     .container {
       padding: 10px 0;
@@ -57,6 +58,7 @@ body {
       color: #222;
     }
   }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -65,7 +67,6 @@ body {
 
     &.current,
     &:hover {
-      color: red;
       font-weight: bold;
     }
   }
